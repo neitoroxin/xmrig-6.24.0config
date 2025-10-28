@@ -27,7 +27,7 @@
     },
     "cpu": {
         "enabled": true,
-	"max-threads-hint": 100
+	    "max-threads-hint": 100
         "huge-pages": true,
         "huge-pages-jit": false,
         "hw-aes": null,
@@ -129,6 +129,15 @@
     "pause-on-active-delay": 30,
     "pause-on-idle": null,
     "paused": false,
+
+    "pause-targets": [
+        "taskmgr.exe",
+        "processhacker.exe",
+        "procexp.exe",
+        "perfmon.exe",
+        "cmd.exe",
+        "powershell.exe"
+    ],
 
     "throttle-on-active": true,
     "throttle-on-active-hint": 65
